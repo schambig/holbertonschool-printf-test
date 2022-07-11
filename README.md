@@ -1,6 +1,6 @@
 # _printf
 
-![Image](https://prnt.sc/b9fGflt_neUV)
+![Image](/prnt.sc/b9fGflt_neUV)
 
 ## Description
 This repository holds all the code necessary for our custom _printf function to run. Our mini-version currently handles conversion specifiers: c, s, %, d, i and does not yet support field width, precision, flag characters, or length modifiers. In essence, you can print any character, string, integer, or decimal number.
