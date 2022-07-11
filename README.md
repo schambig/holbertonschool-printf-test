@@ -19,10 +19,10 @@ Prototype: int _printf(const char *, ...);
 ## Format Specifiers
 Function name | Description | Format Specifier
 --- | --- | ---
-`print_char` | Prints a character | `%c`
-`print_string` | Prints a string | `%s`
-`print_percentage` | Prints a '%' | `%%`
-`print_integer` | Prints an integer | `%d` or `%i`
+`is_char` | Prints a character | `%c`
+`is_string` | Prints a string | `%s`
+`is_percentage` | Prints a '%' | `%%`
+`is_integer` | Prints an integer | `%d` or `%i`
 
 ## Installation
 In order to use this custom _printf function you need only ```<unistd.h>``` and ```<stdarg.h>``` library.
