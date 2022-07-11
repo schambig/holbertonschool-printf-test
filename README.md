@@ -5,8 +5,9 @@
 # Table of Contents
 - [Description](#description)
 - [Format Specifiers](#format-specifiers)
-- [Tasks](#tasks)
-- [Some Examples](#some-examples)
+- [Flowcharts](#flowcharts)
+- [Installation](#Instalation)
+- [Examples](#examples)
 - [Authors](#authors)
 
 ## Description
@@ -17,12 +18,6 @@ The  function  _printf()  writes  output to the standard output. The function wr
 Prototype: int _printf(const char *, ...);
 
 ## Format Specifiers
-Function name | Description | Format Specifier
---- | --- | ---
-`is_char` | Prints a character | `%c`
-`is_string` | Prints a string | `%s`
-`is_percentage` | Prints a '%' | `%%`
-`is_integer` | Prints an integer | `%d` or `%i`
 
 Format Specifier | Function name | Description
 --- | --- | ---
