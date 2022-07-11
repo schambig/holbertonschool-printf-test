@@ -6,7 +6,7 @@
 - [Description](#description)
 - [Format Specifiers](#format-specifiers)
 - [Flowcharts](#flowcharts)
-- [Installation](#Instalation)
+- [Installation](#Installation)
 - [Examples](#examples)
 - [Authors](#authors)
 
@@ -26,8 +26,10 @@ Format Specifier | Function name | Description
 `d` | `is_integer` | Print a decimal (base 10) number
 `i` | `is_integer` | Print an integer in base 10
 
+## Flowcharts
+
 ## Installation
-In order to use this custom _printf function you need only ```<unistd.h>``` and ```<stdarg.h>``` library.
+To use this custom _printf function you need only ```<unistd.h>``` and ```<stdarg.h>``` library.
 
 First, clone this repository to your local machine:
 
