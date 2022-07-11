@@ -11,7 +11,7 @@
 - [Authors](#authors)
 
 ## Description
-This custom function, which we named _printf, emulates some of the funtionalities of the builtin C printf() function.
+This custom function, which we named _printf(), emulates some of the funtionalities of the builtin C printf() function.
 
 The  function  _printf()  writes  output to the standard output. The function writes under the control of a format string that specifies how subsequent arguments are converted for output.
 
@@ -43,13 +43,12 @@ Then, go to the repository folder:
 $ cd holbertonschool-printf
 ```
 
-You can compile it with your your C source code:
+Finally, you can compile it with your C source code:
 
 ```
 $ gcc *.c [your_code] -o outfile
 ```
-
-
+---
 You can also make it portable, creating a static library, follow the these steps:
 
 ```
