@@ -37,23 +37,23 @@ First, clone this repository to your local machine:
 $ git clone https://github.com/schambig/holbertonschool-printf.git
 ```
 
-After cloning the repo, go to the printf folder with:
+Then, go to the repository folder:
 
 ```
 $ cd holbertonschool-printf
 ```
 
-You can compile it with your your C source code with:
+You can compile it with your your C source code:
 
 ```
-$ gcc *.c your_C_source_code -o outfile
+$ gcc *.c [your_code] -o outfile
 ```
 
 
-But the simplest solution is to make it portable, in other words to create a static library:
+You can also make it portable, creating a static library, follow the these steps:
 
 ```
-gcc *.c
+gcc -c *.c 
 ar -rc libholbertonschoolprintf.a *.o
 ranlib libholbertonschool-printf.a
 ```
