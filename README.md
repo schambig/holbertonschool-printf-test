@@ -24,6 +24,11 @@ Function name | Description | Format Specifier
 `is_percentage` | Prints a '%' | `%%`
 `is_integer` | Prints an integer | `%d` or `%i`
 
+Format Specifier | Function name | Description
+--- | --- | ---
+`c` | `is_char` | Prints a character
+
+
 ## Installation
 In order to use this custom _printf function you need only ```<unistd.h>``` and ```<stdarg.h>``` library.
 
