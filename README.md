@@ -2,6 +2,16 @@
 
 ![_printf](https://i.imgur.com/QRigUKw.jpg)
 
+# Table of Contents
+- [Description](#description)
+- [Authorized functions and macros](#authorized-functions-and-macros)
+- [Compilation](#compilation)
+- [Installation](#installation)
+- [Format Specifiers](#format-specifiers)
+- [Tasks](#tasks)
+- [Some Examples](#some-examples)
+- [Authors](#authors)
+
 ## Description
 This project emulates some of the funtionalities of the builtin C printf() function, which we named _printf.
 
@@ -10,15 +20,6 @@ The  function  _printf()  writes  output to the standard output. The function wr
 Prototype: int _printf(const char *, ...);
 
 
-# Table of Contents
-- [General Requirements](#general-requirements)
-- [Authorized functions and macros](#authorized-functions-and-macros)
-- [Compilation](#compilation)
-- [Installation](#installation)
-- [Format Specifiers](#format-specifiers)
-- [Tasks](#tasks)
-- [Some Examples](#some-examples)
-- [Authors](#authors)
 
 ## General Requirements
 Here are the general requirements:
