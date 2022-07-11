@@ -52,7 +52,7 @@ $ gcc *.c [your_code] -o outfile
 You can also make it portable, creating a static library, follow the these steps:
 
 ```
-gcc -c *.c 
+gcc -c *.c        (create object files from source files (*.c))
 ar -rc libholbertonschoolprintf.a *.o
 ranlib libholbertonschool-printf.a
 ```
