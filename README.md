@@ -26,8 +26,10 @@ Function name | Description | Format Specifier
 
 Format Specifier | Function name | Description
 --- | --- | ---
-`c` | `is_char` | Prints a character
-
+`c` | `is_char` | Print a single character
+`s` | `is_string` | Print a string of characters
+`d` | `is_integer` | Print a decimal (base 10) number
+`i` | `is_integer` | Print an integer in base 10
 
 ## Installation
 In order to use this custom _printf function you need only ```<unistd.h>``` and ```<stdarg.h>``` library.
