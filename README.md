@@ -29,24 +29,24 @@ Format Specifier | Function name | Description
 ## Flowcharts
 
 ## Installation
-To use this custom _printf function you need `<stdio.h>`, ```<stdarg.h>``` library.
+To use this custom _printf function you need `<stdio.h>`, `<stdarg.h>`, `<string.h>` and `<stddef.h>` libraries.
 
 First, clone this repository to your local machine:
 
 ```
-$ git clone https://github.com/ChristianVaras/printf.git
+$ git clone https://github.com/schambig/holbertonschool-printf.git
 ```
 
 After cloning the repo, go to the printf folder with:
 
 ```
-$ cd printf
+$ cd holbertonschool-printf
 ```
 
 You can compile it with your your C source code with:
 
 ```
-$ gcc *.c your_C_source_code -o output
+$ gcc *.c your_C_source_code -o outfile
 ```
 
 
@@ -54,8 +54,8 @@ But the simplest solution is to make it portable, in other words to create a sta
 
 ```
 gcc *.c
-ar -rc libprintf.a *.o
-ranlib libprintf.a
+ar -rc libholbertonschoolprintf.a *.o
+ranlib libholbertonschool-printf.a
 ```
 
 Now you will have ```printf.a``` static library, and all you have to do is compile your code with this library:
