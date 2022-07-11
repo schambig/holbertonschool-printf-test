@@ -29,7 +29,7 @@ Format Specifier | Function name | Description
 ## Flowcharts
 
 ## Installation
-To use this custom _printf function you need only ```<unistd.h>``` and ```<stdarg.h>``` library.
+To use this custom _printf function you need `<stdio.h>`, ```<stdarg.h>``` library.
 
 First, clone this repository to your local machine:
 
