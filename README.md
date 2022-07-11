@@ -48,7 +48,7 @@ Finally, you can compile it with your C source code:
 ```
 $ gcc *.c [your_code] -o outfile
 ```
---
+---
 You can also make it portable, creating a static library, follow the these steps:
 
 ```
