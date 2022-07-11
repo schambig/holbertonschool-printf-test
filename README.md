@@ -51,8 +51,12 @@ $ gcc *.c [your_code] -o outfile
 ---
 You can also make it portable, creating a static library, follow the these steps:
 
+Once cloned (first step above) go to the repository folder, and get the object files:
+
 ```
-gcc -c *.c        (create object files from source files (*.c))
+gcc -c *.c 
+```
+
 ar -rc libholbertonschoolprintf.a *.o
 ranlib libholbertonschool-printf.a
 ```
