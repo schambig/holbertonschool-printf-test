@@ -3,6 +3,8 @@
 ![_printf](https://i.imgur.com/QRigUKw.jpg)
 
 ## Description
+This project emulates some of the funtionalities of the builtin C printf() function which we named _printf.
+
 The  function  _printf()  writes  output to the standard output. The function writes under the control of a format string that specifies how subsequent arguments are converted for output.
 
 Prototype: int _printf(const char *, ...);
