@@ -54,10 +54,17 @@ You can also make it portable, creating a static library, follow the these steps
 Once cloned (first step above) go to the repository folder, and get the object files:
 
 ```
-gcc -c *.c 
+$ gcc -c *.c 
+```
+Then create the static library:
+
+```
+ar -rc libprintf.a *.o
 ```
 
-ar -rc libholbertonschoolprintf.a *.o
+Once the static library is created, create and update the index (this speed up the compilation process):
+
+```
 ranlib libholbertonschool-printf.a
 ```
 
