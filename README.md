@@ -91,9 +91,9 @@ $ gcc [your_code] -L. -lprintf -o [outfile_name]
 
 **Percentage**
 * Input: ```_printf("We've finished the 100%% of the mandatory tasks.\n");```
-* Output: ```We've finished the 100%% of the mandatory tasks.```
+* Output: ```We've finished the 100% of the mandatory tasks.```
 
 
 ## Authors
-- [Mauricio Carrasco](https://github.com/mauricodev) ~ [Linkedin](https://www.linkedin.com/in/mauriciocm69/) ~ [@mauricodev](https://twitter.com/mauricodev)
-- [Christian Varas](https://github.com/ChristianVaras) ~ [@ChristianVaras8](https://twitter.com/ChristianVaras8)
+- [Joel Melgarejo](https://github.com/Jmel8)
+- [Salomón Chambi](https://github.com/schambig)
