@@ -82,16 +82,16 @@ $ gcc [your_code] -L. -lprintf -o [outfile_name]
 * Output: ```C is fun!```
 
 **String**
-* Input: ```_printf("%s\n", "This is a simple string.");```
-* Output: ```This is a simple string.```
+* Input: ```_printf("%s\n", "Read the fucking manual.");```
+* Output: ```Read the fucking manual.```
 
 **Integer or Decimal**
-* Input: ```_printf("I've %i years old\n", 16);```
-* Output: ```I've 16 years old```
+* Input: ```_printf("Today is July %i.\n", 12);```
+* Output: ```Today is July 12.```
 
 **Percentage**
-* Input: ```_printf("I got 100%% of the profit.\n");```
-* Output: ```I got 100%% of the profit.```
+* Input: ```_printf("We've finished the 100%% of the mandatory tasks.\n");```
+* Output: ```We've finished the 100%% of the mandatory tasks.```
 
 
 ## Authors
