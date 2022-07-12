@@ -28,6 +28,8 @@ Format Specifier | Function name | Description
 
 ## Flowcharts
 
+![_printf](https://prnt.sc/SqUkJmjudXoC)
+
 ## Installation
 To use this custom _printf function you need `<stdio.h>`, `<stdarg.h>`, `<string.h>` and `<stddef.h>` libraries.
 
