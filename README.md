@@ -95,5 +95,7 @@ $ gcc [your_code] -L. -lprintf -o [outfile_name]
 
 
 ## Authors
+| [<img src="https://avatars.githubusercontent.com/u/64811637?v=4" width=115><br><sub> Joel Melgarejo </sub>](https://github.com/Jmel8) |  [<img src="https://avatars.githubusercontent.com/u/69946309?v=4" width=115><br><sub> Salomón Chambi </sub>](https://github.com/schambig) |
+| :---: | :---: |
 - [Joel Melgarejo](https://github.com/Jmel8)
 - [Salomón Chambi](https://github.com/schambig)
