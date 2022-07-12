@@ -78,8 +78,8 @@ $ gcc [your_code] -L. -lprintf -o [outfile_name]
 
 
 **Character**
-* Input: ```_printf("The last letter of the alphabet is %c\n", 'Z');```
-* Output: ```The last letter of the alphabet is Z```
+* Input: ```_printf("%c is fun!\n", 'C');```
+* Output: ```C is fun!```
 
 **String**
 * Input: ```_printf("%s\n", "This is a simple string.");```
