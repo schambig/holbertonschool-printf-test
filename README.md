@@ -46,7 +46,7 @@ $ cd holbertonschool-printf
 Finally, you can compile it with your C source code:
 
 ```
-$ gcc *.c [your_code] -o outfile
+$ gcc *.c [your_code] -o [outfile_name]
 ```
 ---
 You can also make it portable, creating a static library, follow the these steps:
@@ -59,19 +59,19 @@ $ gcc -c *.c
 Then create the static library:
 
 ```
-ar -rc libprintf.a *.o
+$ ar -rc libprintf.a *.o
 ```
 
 Once the static library is created, create and update the index (this speed up the compilation process):
 
 ```
-ranlib libprintf.a
+$ ranlib libprintf.a
 ```
 
 Now you will have ```printf.a``` static library, and all you have to do is compile your code with this library:
 
 ```
-gcc [your_code] -L. -lprintf
+$ gcc [your_code] -L. -lprintf -o [outfile_name]
 ```
 
 
