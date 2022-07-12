@@ -62,7 +62,7 @@ Then create the static library:
 $ ar -rc libprintf.a *.o
 ```
 
-Once the static library is created, create and update the index (this speed up the compilation process):
+Once the static library is created, create and update the index of the just created library (this speed up the compilation process):
 
 ```
 $ ranlib libprintf.a
