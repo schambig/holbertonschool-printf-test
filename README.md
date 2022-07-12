@@ -28,7 +28,7 @@ Format Specifier | Function name | Description
 
 ## Flowcharts
 
-![_printf](https://i.imgur.com/V5LCHVf.jpg)
+![_printf](https://i.imgur.com/mlNMLOP.jpg)
 
 ![parser](https://i.imgur.com/YrTUWcD.jpg)
 
