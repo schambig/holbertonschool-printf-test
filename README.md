@@ -65,13 +65,13 @@ ar -rc libprintf.a *.o
 Once the static library is created, create and update the index (this speed up the compilation process):
 
 ```
-ranlib libholbertonschool-printf.a
+ranlib libprintf.a
 ```
 
 Now you will have ```printf.a``` static library, and all you have to do is compile your code with this library:
 
 ```
-gcc your_C_source_code -L. -lprintf
+gcc [your_code] -L. -lprintf
 ```
 
 
